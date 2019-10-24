@@ -15,6 +15,10 @@ public class Stack_ArrayImplementation {
 	}
 	
 	static void pop(){//here pop implementaion : only decrement top
+		if(top == -1) {
+			System.out.println("STACK : underflow - no element to pop");
+			return;
+		}
 		top--;
 	}
 	int top(){//get top element && return only if not empty
@@ -34,6 +38,7 @@ public class Stack_ArrayImplementation {
 	
 	public static void main(String[] args) {
 		System.out.println(isEmpty());
+		pop();
 		push(1); print();
 		push(3); print();
 		push(6); print();
