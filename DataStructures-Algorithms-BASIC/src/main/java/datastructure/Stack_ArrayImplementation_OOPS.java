@@ -1,4 +1,4 @@
-package com.datastructure;
+package datastructure;
 /**
  * @author yadha02
  * same implementation as Stack_ArrayImplementaion -> only difference is we are using obj
