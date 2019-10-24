@@ -28,7 +28,12 @@ public class Stack_ArrayImplementation {
 		System.out.println("");
 	}
 	
+	static boolean isEmpty(){
+		return (top == -1) ? true : false;
+	}
+	
 	public static void main(String[] args) {
+		System.out.println(isEmpty());
 		push(1); print();
 		push(3); print();
 		push(6); print();
@@ -37,11 +42,13 @@ public class Stack_ArrayImplementation {
 		push(14); print();
 		push(155); print();
 		push(13); print();
+		System.out.println(isEmpty());
 		push(17); print();
 		push(123); print();
 		push(19); print();
 		push(144); print();
 		push(15); print();//overflow - only work we we change value stackSize to 11
+		System.out.println(isEmpty());
 		
 	}
 
