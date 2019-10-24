@@ -1,5 +1,9 @@
 package com.datastructure;
-
+/**
+ * 
+ * @author yadha02
+ *
+ */
 public class Stack_ArrayImplementation {
 	//declare global variable
 	static int stackSize	= 11;
