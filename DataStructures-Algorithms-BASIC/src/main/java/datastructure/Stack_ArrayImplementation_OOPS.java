@@ -29,10 +29,10 @@ class Stack{
 		top--;
 	}
 	int top() {//return top element && check underflow condition
-		return stack[top];
+		return (top==-1)? -1 : stack[top];
 	}
 	boolean isEmpty(){
-		return (top == -1)? true:false;
+		return (top == -1)? true : false;
 	}
 	void printStack(){
 		System.out.print("STACK : ");
@@ -46,7 +46,9 @@ public class Stack_ArrayImplementation_OOPS {
 
 	public static void main(String[] args) {
 		Stack stackObj = new Stack();
+		
 		System.out.println(stackObj.isEmpty());
+		System.out.println("1st time top: "+stackObj.top());
 		stackObj.pop();
 		stackObj.push(11); stackObj.printStack();
 		stackObj.push(111); stackObj.printStack();
