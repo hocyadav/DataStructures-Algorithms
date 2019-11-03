@@ -19,7 +19,8 @@ class Queue{
 		queue = new int[size];
 	}
 	
-	//insert
+	//insert - 
+	//Time Complexity of Enqueue : O(1)
 	void enQueue(int v) {//rear++ & add (in stack top++ & add)
 		if(rear == size) {
 			System.out.println("Overflow");
@@ -27,7 +28,7 @@ class Queue{
 		}
 		queue[rear++] = v;
 	}
-	
+	//Time Complexity of Dequeue : O(n)
 	void deQueue() {
 		if(front == rear) {
 			System.out.println("Underflow - nothing to delete");
