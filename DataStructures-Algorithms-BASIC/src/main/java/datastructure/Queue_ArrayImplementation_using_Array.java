@@ -57,6 +57,9 @@ public class Queue_ArrayImplementation_using_Array {
 		obj.deQueue();obj.print();
 		obj.enQueue(1);obj.print();
 		obj.enQueue(2);obj.print();
+		obj.enQueue(2);obj.print();
+		obj.enQueue(2);obj.print();
+		obj.enQueue(2);obj.print();//overflow
 		obj.deQueue();obj.print();
 		obj.deQueue();obj.print();
 		obj.deQueue();obj.print();
