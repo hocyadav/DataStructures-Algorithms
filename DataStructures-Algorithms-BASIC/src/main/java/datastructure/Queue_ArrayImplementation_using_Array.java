@@ -29,7 +29,7 @@ class Queue{
 		queue[rear++] = v;
 	}
 	//Time Complexity of Dequeue : O(n)
-	void deQueue() {
+	void deQueue() {//rear-- , before that move all 1 step left
 		if(front == rear) {
 			System.out.println("Underflow - nothing to delete");
 			return;
