@@ -43,6 +43,7 @@ class Queue{
 	
 	void print() {
 		System.out.print("Queue : ");
+		//rear default value start from 0 not from -1 like stack top -1
 		for(int i=0;i<rear;i++) {//no equal to real becaue after enqueue rear in incrementing
 			System.out.print(queue[i]+" ");
 		}
