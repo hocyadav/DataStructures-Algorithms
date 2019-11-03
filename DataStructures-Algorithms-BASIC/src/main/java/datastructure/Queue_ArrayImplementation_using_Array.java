@@ -1,5 +1,9 @@
 package datastructure;
-
+/**
+ * 
+ * @author Hariom Yadav - Nov 3, 2019
+ *
+ */
 //data structure - array
 //use of ds
 class Queue{
